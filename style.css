@@ -1,0 +1,14 @@
+#main {
+    display: flex;
+    flex-wrap: wrap;
+    height: 600px;
+    width: 600px;
+    margin: auto;
+  }
+  
+  #main > div {
+    flex-basis: calc(100% / 17);
+    border: 1px solid gray;
+    background-color: lightgray;
+  }
+  
