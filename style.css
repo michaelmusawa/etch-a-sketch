@@ -1,14 +1,22 @@
 #main {
     display: flex;
     flex-wrap: wrap;
-    height: 600px;
-    width: 600px;
+    height: 900px;
+    width: 1000px;
     margin: auto;
+    border: solid 2px grey;
+    border-radius: 5px;
   }
   
   #main > div {
-    flex-basis: calc(100% / 17);
-    border: 1px solid gray;
-    background-color: lightgray;
+    background-color: white;
+  }
+
+  #btn {
+    display: flex;
+    height: 40px;
+    width: 100px;
+    align-self: center;
+    margin: 10px auto;
   }
   
